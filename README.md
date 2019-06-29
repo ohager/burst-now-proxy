@@ -6,6 +6,13 @@ Current node is:
 
 `https://wallet.burst-alliance.org:8125`
 
+# Configured endpoints
+
+| Route | Description |
+|----------|-------------|
+|    `/`      |  Status check   |
+|  `/burst`        |   The proxied API Endpoint          |
+|          |             |
 
 # Installation
 
