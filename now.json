@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "name": "burst-now-proxy",
+  "builds": [
+    {
+      "src": "**/*.js",
+      "use": "@now/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/burst",
+      "dest": "/burst.js"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/"
+    }
+  ]
+}
