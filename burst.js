@@ -3,7 +3,8 @@ const cors = require('cors');
 const proxy = require('http-proxy-middleware');
 
 const proxyOptions = {
-  target: "https://wallet.burst-alliance.org:8125",
+  // target: "https://wallet.burst-alliance.org:8125",
+  target: "http://node.burst.gittam.de",
   changeOrigin: true,
 };
 
